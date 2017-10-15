@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.validation.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="mainPane" prefHeight="505.0" prefWidth="496.0"
+	style="-fx-background-color: #B9FFB9;" xmlns="http://javafx.com/javafx/8"
+	xmlns:fx="http://javafx.com/fxml/1" fx:controller="sef.rmit.controller.LoginController">
+	<children>
+		<Pane layoutX="14.0" layoutY="18.0" prefHeight="469.0" prefWidth="468.0"
+			style="-fx-background-color: #CD853F;">
+			<children>
+				<Pane layoutX="24.0" layoutY="25.0" prefHeight="419.0"
+					prefWidth="420.0" style="-fx-background-color: white;">
+					<children>
+						<Label fx:id="lblHeading" layoutX="143.0" layoutY="25.0"
+							prefHeight="31.0" prefWidth="156.0" text="Sign Up Form"
+							textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" wrapText="true">
+							<font>
+								<Font name="System Italic" size="21.0" />
+							</font>
+						</Label>
+						<JFXTextField fx:id="inpGivenName" focusColor="#28ff24"
+							labelFloat="true" layoutX="53.0" layoutY="93.0" maxWidth="471.0"
+							minWidth="347.0" prefHeight="31.0" prefWidth="353.0" promptText="Given Name"
+							unFocusColor="BLACK" />
+						<JFXTextField fx:id="inpFamilyName" focusColor="#28ff24"
+							labelFloat="true" layoutX="54.0" layoutY="145.0" maxWidth="471.0"
+							minWidth="347.0" prefHeight="31.0" prefWidth="353.0" promptText="Family Name"
+							unFocusColor="BLACK" />
+						<JFXTextField fx:id="inpEmail" focusColor="#28ff24"
+							labelFloat="true" layoutX="54.0" layoutY="200.0" maxWidth="471.0"
+							minWidth="347.0" onInputMethodTextChanged="#validateEmail"
+							onKeyPressed="#validateEmail" onKeyTyped="#validateEmail"
+							onMouseExited="#validateEmailOverMouse" onMousePressed="#validateEmailOverMouse"
+							onMouseReleased="#validateEmailOverMouse" prefHeight="31.0"
+							prefWidth="353.0" promptText="Email " unFocusColor="BLACK" />
+						<JFXPasswordField fx:id="inpPassword" focusColor="#28ff24"
+							labelFloat="true" layoutX="54.0" layoutY="253.0" maxWidth="353.0"
+							minWidth="345.0" prefHeight="31.0" prefWidth="353.0" promptText="Password"
+							unFocusColor="BLACK" />
+						<JFXPasswordField fx:id="inpConfirmPasword"
+							focusColor="#28ff24" labelFloat="true" layoutX="53.0" layoutY="306.0"
+							maxWidth="353.0" minWidth="345.0" prefHeight="31.0" prefWidth="353.0"
+							promptText="Confirm Password " unFocusColor="BLACK" />
+						<JFXButton fx:id="cancelButton" buttonType="RAISED"
+							layoutX="230.0" layoutY="360.0" onAction="#cancelForm"
+							prefHeight="31.0" prefWidth="74.0" style="-fx-background-color: Green;"
+							text="Cancel" textFill="WHITE" />
+						<JFXButton fx:id="submitButton" buttonType="RAISED"
+							layoutX="321.0" layoutY="360.0" onAction="#submitUser"
+							prefHeight="31.0" prefWidth="74.0" style="-fx-background-color: Green;"
+							text="Submit" textFill="WHITE" />
+						<Label fx:id="lblStatus" layoutX="72.0" layoutY="56.0"
+							prefHeight="23.0" prefWidth="298.0" textFill="#ff3f19" />
+						<ImageView fitHeight="31.0" fitWidth="33.0" layoutX="15.0"
+							layoutY="94.0" pickOnBounds="true" preserveRatio="true">
+							<image>
+								<Image url="@../images/user.png" />
+							</image>
+						</ImageView>
+						<ImageView fitHeight="31.0" fitWidth="33.0" layoutX="15.0"
+							layoutY="148.0" pickOnBounds="true" preserveRatio="true">
+							<image>
+								<Image url="@../images/users_family.png" />
+							</image>
+						</ImageView>
+						<ImageView fitHeight="31.0" fitWidth="41.0" layoutX="14.0"
+							layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+							<image>
+								<Image url="@../images/email.png" />
+							</image>
+						</ImageView>
+						<ImageView fitHeight="31.0" fitWidth="40.0" layoutX="14.0"
+							layoutY="253.0" pickOnBounds="true" preserveRatio="true">
+							<image>
+								<Image url="@../images/security.png" />
+							</image>
+						</ImageView>
+						<ImageView fitHeight="31.0" fitWidth="40.0" layoutX="13.0"
+							layoutY="303.0" pickOnBounds="true" preserveRatio="true">
+							<image>
+								<Image url="@../images/security.png" />
+							</image>
+						</ImageView>
+						<JFXProgressBar fx:id="progressBar" layoutX="110.0"
+							layoutY="374.0" visible="false" />
+					</children>
+				</Pane>
+			</children>
+		</Pane>
+	</children>
+</AnchorPane>

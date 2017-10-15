@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="sef.rmit.controller.ViewGridController">
+	<children>
+		<Pane prefHeight="484.0" prefWidth="355.0"
+			style="-fx-background-color: #e27e36;">
+			<children>
+				<JFXButton fx:id="cancelButton" layoutX="140.0" layoutY="442.0"
+					onAction="#redirectToDashBoard" prefHeight="33.0" prefWidth="72.0"
+					style="-fx-background-color: #4d79ff;" text="Cancel" />
+				<Label fx:id="lblStatus" layoutX="95.0" layoutY="2.0"
+					prefHeight="25.0" prefWidth="204.0" text="    Select a Grid"
+					textFill="WHITE" />
+				<TableView fx:id="tableView" layoutX="25.0" layoutY="29.0"
+					onMouseClicked="#gridViewKeyEvent" prefHeight="409.0" prefWidth="306.0" />
+			</children>
+		</Pane>
+	</children>
+</VBox>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.validation.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="551.0" prefWidth="565.0"
+	style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/8"
+	xmlns:fx="http://javafx.com/fxml/1" fx:controller="sef.rmit.controller.UpdateProfileController">
+	<!-- TODO Add Nodes -->
+	<children>
+		<Pane fx:id="pane" layoutX="9.0" layoutY="10.0" prefHeight="533.0"
+			prefWidth="547.0" style="-fx-background-color: #DCDCDC;">
+			<children>
+				<ImageView id="Trafic_Signal" fitHeight="260.0" fitWidth="548.0"
+					layoutX="1.0" layoutY="4.0" pickOnBounds="true">
+					<image>
+						<Image preserveRatio="true" smooth="true"
+							url="@../images/Trafic_Signal.gif" />
+					</image>
+				</ImageView>
+				<Label fx:id="lblStatus" layoutX="210.0" layoutY="276.0"
+					prefHeight="25.0" prefWidth="272.0" />
+				<JFXButton fx:id="updateButton" buttonType="RAISED"
+					layoutX="350.0" layoutY="495.0" onAction="#updateProfile"
+					style="-fx-background-color: #32CD32;" text="Update Details" />
+				<JFXTextField fx:id="txtFamilyName" focusColor="#5fbb5f"
+					labelFloat="true" layoutX="64.0" layoutY="326.0" maxWidth="401.0"
+					minWidth="216.0" prefHeight="25.0" prefWidth="401.0" promptText="Family Name"
+					unFocusColor="BLACK" />
+				<JFXTextField fx:id="txtEmail" focusColor="#5fbb5f"
+					labelFloat="true" layoutX="64.0" layoutY="452.0" maxWidth="401.0"
+					minWidth="216.0" prefHeight="31.0" prefWidth="401.0" promptText="Email"
+					unFocusColor="BLACK" />
+				<JFXPasswordField fx:id="txtCnfPassword"
+					focusColor="#5fbb5f" labelFloat="true" layoutX="64.0" layoutY="410.0"
+					maxWidth="401.0" minWidth="216.0" prefHeight="10.0" prefWidth="401.0"
+					promptText="Confirm Password" unFocusColor="BLACK" />
+				<JFXPasswordField fx:id="txtPassword" focusColor="#5fbb5f"
+					labelFloat="true" layoutX="64.0" layoutY="368.0" maxWidth="401.0"
+					minWidth="216.0" prefHeight="25.0" prefWidth="401.0" promptText="Password"
+					unFocusColor="BLACK" />
+				<JFXTextField fx:id="txtGivenname" focusColor="#5fbb5f"
+					labelFloat="true" layoutX="64.0" layoutY="281.0" maxWidth="401.0"
+					minWidth="216.0" prefHeight="31.0" prefWidth="401.0" promptText="Given Name"
+					unFocusColor="BLACK" />
+				<ImageView fitHeight="31.0" fitWidth="36.0" layoutX="491.0"
+					layoutY="272.0" onMouseClicked="#editProfile" pickOnBounds="true"
+					preserveRatio="true">
+					<image>
+						<Image url="@../images/edit-icon.png" />
+					</image>
+				</ImageView>
+				<JFXButton fx:id="continueButton" buttonType="RAISED"
+					layoutX="476.0" layoutY="494.0" onAction="#redirectToPage"
+					style="-fx-background-color: #32CD32;" text="Done" />
+			</children>
+		</Pane>
+	</children>
+</AnchorPane>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="sef.rmit.controller.ViewGraphController">
+	<children>
+		<Pane prefHeight="479.0" prefWidth="490.0"
+			style="-fx-background-color: #e27e36;">
+			<children>
+				<JFXButton fx:id="cancelButton" layoutX="211.0" layoutY="434.0"
+					onAction="#redirectToDashBoard" prefHeight="33.0" prefWidth="72.0"
+					style="-fx-background-color: #4d79ff;" text="Cancel" />
+				<Label fx:id="lblStatus" layoutX="146.0" prefHeight="25.0"
+					prefWidth="204.0" text="    Select a Graph to Simulate" textFill="WHITE" />
+				<TableView fx:id="tableView" layoutX="13.0" layoutY="24.0"
+					onMouseClicked="#graphViewKeyEvent" prefHeight="400.0" prefWidth="465.0" />
+			</children>
+		</Pane>
+	</children>
+</VBox>

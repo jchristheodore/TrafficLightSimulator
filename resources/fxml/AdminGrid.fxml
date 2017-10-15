@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<Pane prefHeight="720.0" prefWidth="778.0" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sef.rmit.controller.AdminGridController">
+	<children>
+		<ScrollPane layoutY="1.0" prefHeight="700.0" prefWidth="778.0" style="-fx-background-color: green;">
+			<content>
+				<Pane prefHeight="820.0" prefWidth="757.0" style="-fx-background-color: green;">
+					<children>
+						<AnchorPane id="AnchorPane" fx:id="pane" disable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="760.0" style="-fx-background-color: green;">
+							<children>
+								<Rectangle arcHeight="5.0" arcWidth="5.0" fill="#55b130" height="200.0" layoutX="2.0" stroke="WHITE" strokeType="INSIDE" width="252.0" />
+								<Rectangle arcHeight="5.0" arcWidth="5.0" fill="#55b130" height="200.0" layoutX="254.0" stroke="WHITE" strokeType="INSIDE" width="252.0" />
+								<Rectangle arcHeight="5.0" arcWidth="5.0" fill="#55b130" height="200.0" layoutX="506.0" stroke="WHITE" strokeType="INSIDE" width="252.0" />
+								<Rectangle arcHeight="5.0" arcWidth="5.0" fill="#55b130" height="200.0" layoutX="506.0" layoutY="200.0" stroke="WHITE" strokeType="INSIDE" width="252.0" />
+								<Rectangle arcHeight="5.0" arcWidth="5.0" fill="#55b130" height="200.0" layoutX="254.0" layoutY="200.0" stroke="WHITE" strokeType="INSIDE" width="252.0" />
+								<Rectangle arcHeight="5.0" arcWidth="5.0" fill="#55b130" height="200.0" layoutX="2.0" layoutY="200.0" stroke="WHITE" strokeType="INSIDE" width="252.0" />
+								<Rectangle arcHeight="5.0" arcWidth="5.0" fill="#55b130" height="200.0" layoutX="506.0" layoutY="400.0" stroke="WHITE" strokeType="INSIDE" width="252.0" />
+								<Rectangle arcHeight="5.0" arcWidth="5.0" fill="#55b130" height="200.0" layoutX="254.0" layoutY="400.0" stroke="WHITE" strokeType="INSIDE" width="252.0" />
+								<Rectangle arcHeight="5.0" arcWidth="5.0" fill="#55b130" height="200.0" layoutX="2.0" layoutY="400.0" stroke="WHITE" strokeType="INSIDE" width="252.0" />
+								<Separator layoutX="1.0" layoutY="68.0" prefHeight="1.0" prefWidth="91.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="2.0" layoutY="131.0" prefHeight="7.0" prefWidth="94.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="86.0" orientation="VERTICAL" prefHeight="68.0" prefWidth="8.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="163.0" orientation="VERTICAL" prefHeight="68.0" prefWidth="8.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="163.0" layoutY="132.0" orientation="VERTICAL" prefHeight="138.0" prefWidth="8.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="163.0" layoutY="68.0" prefHeight="7.0" prefWidth="179.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="414.0" layoutY="133.0" orientation="VERTICAL" prefHeight="138.0" prefWidth="8.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="414.0" layoutY="1.0" orientation="VERTICAL" prefHeight="68.0" prefWidth="8.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="337.0" layoutY="1.0" orientation="VERTICAL" prefHeight="68.0" prefWidth="8.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="1.0" layoutY="265.0" prefHeight="7.0" prefWidth="94.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="162.0" layoutY="332.0" orientation="VERTICAL" prefHeight="138.0" prefWidth="1.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="336.0" layoutY="333.0" orientation="VERTICAL" prefHeight="138.0" prefWidth="8.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="589.0" layoutY="2.0" orientation="VERTICAL" prefHeight="68.0" prefWidth="8.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="666.0" layoutY="2.0" orientation="VERTICAL" prefHeight="68.0" prefWidth="8.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="589.0" layoutY="134.0" orientation="VERTICAL" prefHeight="138.0" prefWidth="1.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="666.0" layoutY="134.0" orientation="VERTICAL" prefHeight="138.0" prefWidth="8.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="666.0" layoutY="131.0" prefHeight="7.0" prefWidth="94.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="666.0" layoutY="69.0" prefHeight="7.0" prefWidth="94.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="666.0" layoutY="264.0" prefHeight="7.0" prefWidth="94.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="666.0" layoutY="328.0" prefHeight="7.0" prefWidth="94.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="666.0" layoutY="332.0" orientation="VERTICAL" prefHeight="138.0" prefWidth="8.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="589.0" layoutY="332.0" orientation="VERTICAL" prefHeight="138.0" prefWidth="8.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="5.0" layoutY="530.0" prefHeight="7.0" prefWidth="89.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="85.0" layoutY="532.0" orientation="VERTICAL" prefHeight="68.0" prefWidth="8.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="162.0" layoutY="532.0" orientation="VERTICAL" prefHeight="68.0" prefWidth="8.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="414.0" layoutY="533.0" orientation="VERTICAL" prefHeight="68.0" prefWidth="8.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="337.0" layoutY="533.0" orientation="VERTICAL" prefHeight="68.0" prefWidth="8.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="414.0" layoutY="331.0" orientation="VERTICAL" prefHeight="138.0" prefWidth="8.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="589.0" layoutY="532.0" orientation="VERTICAL" prefHeight="68.0" prefWidth="8.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="666.0" layoutY="532.0" orientation="VERTICAL" prefHeight="68.0" prefWidth="8.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="666.0" layoutY="530.0" prefHeight="7.0" prefWidth="94.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="666.0" layoutY="465.0" prefHeight="7.0" prefWidth="94.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="162.0" layoutY="132.0" prefHeight="1.0" prefWidth="179.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="165.0" layoutY="266.0" prefHeight="5.0" prefWidth="179.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="412.0" layoutY="69.0" prefHeight="7.0" prefWidth="185.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="417.0" layoutY="131.0" prefHeight="7.0" prefWidth="179.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="411.0" layoutY="264.0" prefHeight="7.0" prefWidth="185.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="162.0" layoutY="328.0" prefHeight="7.0" prefWidth="179.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="417.0" layoutY="328.0" prefHeight="7.0" prefWidth="179.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="414.0" layoutY="467.0" prefHeight="7.0" prefWidth="185.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="164.0" layoutY="467.0" prefHeight="7.0" prefWidth="179.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="164.0" layoutY="530.0" prefHeight="7.0" prefWidth="179.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="415.0" layoutY="529.0" prefHeight="7.0" prefWidth="179.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="89.0" layoutY="138.0" orientation="VERTICAL" prefHeight="128.0" prefWidth="8.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="86.0" layoutY="328.0" orientation="VERTICAL" prefHeight="138.0" prefWidth="8.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="-2.0" layoutY="465.0" prefHeight="7.0" prefWidth="94.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="1.0" layoutY="328.0" prefHeight="7.0" prefWidth="94.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Separator layoutX="336.0" layoutY="138.0" orientation="VERTICAL" prefHeight="128.0" prefWidth="8.0" style="-fx-background-color: black; -fx-border-color: black;" />
+								<Rectangle fx:id="horizontalRoad1" arcHeight="5.0" arcWidth="5.0" height="58.0" layoutX="3.0" layoutY="75.0" stroke="BLACK" strokeType="INSIDE" width="754.0" />
+								<Line endX="-79.0" layoutX="107.0" layoutY="103.0" startX="-100.0" stroke="YELLOW" />
+								<Line endX="-79.0" layoutX="138.0" layoutY="103.0" startX="-100.0" stroke="YELLOW" />
+								<Line endX="-79.0" layoutX="166.0" layoutY="103.0" startX="-100.0" stroke="YELLOW" />
+								<Rectangle fx:id="horizontalRoad2" arcHeight="5.0" arcWidth="5.0" height="58.0" layoutX="3.0" layoutY="271.0" stroke="BLACK" strokeType="INSIDE" width="754.0" />
+								<Rectangle fx:id="horizontalRoad3" arcHeight="5.0" arcWidth="5.0" height="58.0" layoutX="3.0" layoutY="471.0" stroke="BLACK" strokeType="INSIDE" width="754.0" />
+								<Line endX="-74.0" layoutX="277.0" layoutY="103.0" startX="-100.0" stroke="YELLOW" />
+								<Line endX="-74.0" layoutX="316.0" layoutY="103.0" startX="-100.0" stroke="YELLOW" />
+								<Line endX="-74.0" layoutX="357.0" layoutY="103.0" startX="-100.0" stroke="YELLOW" />
+								<Line endX="-74.0" layoutX="395.0" layoutY="103.0" startX="-100.0" stroke="YELLOW" />
+								<Line endX="-74.0" layoutX="521.0" layoutY="103.0" startX="-100.0" stroke="YELLOW" />
+								<Line endX="-74.0" layoutX="564.0" layoutY="104.0" startX="-100.0" stroke="YELLOW" />
+								<Line endX="-74.0" layoutX="609.0" layoutY="104.0" startX="-100.0" stroke="YELLOW" />
+								<Line endX="-74.0" layoutX="657.0" layoutY="104.0" startX="-100.0" stroke="YELLOW" />
+								<Rectangle fx:id="verticalRoad1" arcHeight="5.0" arcWidth="5.0" height="600.0" layoutX="93.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+								<Rectangle fx:id="verticalRoad2" arcHeight="5.0" arcWidth="5.0" height="600.0" layoutX="345.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+								<Rectangle fx:id="verticalRoad3" arcHeight="5.0" arcWidth="5.0" height="600.0" layoutX="597.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+								<Line endX="-29.0" layoutX="156.0" layoutY="153.0" startX="-29.0" startY="33.0" stroke="YELLOW" />
+								<Line endX="-28.0" layoutX="154.0" layoutY="214.0" startX="-28.0" startY="33.0" stroke="YELLOW" />
+								<ImageView disable="true" fitHeight="25.0" fitWidth="22.0" layoutX="115.0" layoutY="97.0" pickOnBounds="true" preserveRatio="true">
+									<image>
+										<Image url="@../images/light.png" />
+									</image>
+								</ImageView>
+								<Line endX="-28.0" layoutX="154.0" layoutY="407.0" startX="-28.0" startY="33.0" stroke="YELLOW" />
+								<Line endX="-29.0" layoutX="156.0" layoutY="346.0" startX="-29.0" startY="33.0" stroke="YELLOW" />
+								<Line endX="-29.0" layoutX="406.0" layoutY="348.0" startX="-29.0" startY="33.0" stroke="YELLOW" />
+								<Line endX="-28.0" layoutX="404.0" layoutY="409.0" startX="-28.0" startY="33.0" stroke="YELLOW" />
+								<Line endX="-28.0" layoutX="406.0" layoutY="215.0" startX="-28.0" startY="33.0" stroke="YELLOW" />
+								<Line endX="-29.0" layoutX="408.0" layoutY="154.0" startX="-29.0" startY="33.0" stroke="YELLOW" />
+								<Line endX="-79.0" layoutX="166.0" layoutY="300.0" startX="-100.0" stroke="YELLOW" />
+								<Line endX="-79.0" layoutX="138.0" layoutY="300.0" startX="-100.0" stroke="YELLOW" />
+								<Line endX="-79.0" layoutX="107.0" layoutY="300.0" startX="-100.0" stroke="YELLOW" />
+								<Line endX="-28.0" layoutX="153.0" layoutY="552.0" startX="-28.0" startY="33.0" stroke="YELLOW" />
+								<Line endX="-79.0" layoutX="107.0" layoutY="501.0" startX="-100.0" stroke="YELLOW" />
+								<Line endX="-79.0" layoutX="138.0" layoutY="501.0" startX="-100.0" stroke="YELLOW" />
+								<Line endX="-79.0" layoutX="166.0" layoutY="501.0" startX="-100.0" stroke="YELLOW" />
+								<Line endX="-74.0" layoutX="395.0" layoutY="500.0" startX="-100.0" stroke="YELLOW" />
+								<Line endX="-74.0" layoutX="357.0" layoutY="500.0" startX="-100.0" stroke="YELLOW" />
+								<Line endX="-74.0" layoutX="316.0" layoutY="500.0" startX="-100.0" stroke="YELLOW" />
+								<Line endX="-74.0" layoutX="277.0" layoutY="500.0" startX="-100.0" stroke="YELLOW" />
+								<Line endX="-74.0" layoutX="277.0" layoutY="303.0" startX="-100.0" stroke="YELLOW" />
+								<Line endX="-74.0" layoutX="316.0" layoutY="303.0" startX="-100.0" stroke="YELLOW" />
+								<Line endX="-74.0" layoutX="357.0" layoutY="303.0" startX="-100.0" stroke="YELLOW" />
+								<Line endX="-74.0" layoutX="395.0" layoutY="303.0" startX="-100.0" stroke="YELLOW" />
+								<Line endX="-29.0" layoutX="660.0" layoutY="154.0" startX="-29.0" startY="33.0" stroke="YELLOW" />
+								<Line endX="-28.0" layoutX="657.0" layoutY="216.0" startX="-28.0" startY="33.0" stroke="YELLOW" />
+								<Line endX="-74.0" layoutX="657.0" layoutY="302.0" startX="-100.0" stroke="YELLOW" />
+								<Line endX="-74.0" layoutX="609.0" layoutY="302.0" startX="-100.0" stroke="YELLOW" />
+								<Line endX="-74.0" layoutX="561.0" layoutY="302.0" startX="-100.0" stroke="YELLOW" />
+								<Line endX="-74.0" layoutX="521.0" layoutY="302.0" startX="-100.0" stroke="YELLOW" />
+								<Line endX="-29.0" layoutX="157.0" layoutY="19.0" startX="-29.0" startY="33.0" stroke="YELLOW" />
+								<Line endX="-74.0" layoutX="521.0" layoutY="501.0" startX="-100.0" stroke="YELLOW" />
+								<Line endX="-74.0" layoutX="561.0" layoutY="501.0" startX="-100.0" stroke="YELLOW" />
+								<Line endX="-74.0" layoutX="609.0" layoutY="501.0" startX="-100.0" stroke="YELLOW" />
+								<Line endX="-74.0" layoutX="657.0" layoutY="501.0" startX="-100.0" stroke="YELLOW" />
+								<Line endX="-29.0" layoutX="408.0" layoutY="18.0" startX="-29.0" startY="33.0" stroke="YELLOW" />
+								<Line endX="-74.0" layoutX="824.0" layoutY="105.0" startX="-100.0" stroke="YELLOW" />
+								<Line endX="-74.0" layoutX="783.0" layoutY="105.0" startX="-100.0" stroke="YELLOW" />
+								<Line endX="-74.0" layoutX="783.0" layoutY="500.0" startX="-100.0" stroke="YELLOW" />
+								<Line endX="-74.0" layoutX="824.0" layoutY="500.0" startX="-100.0" stroke="YELLOW" />
+								<Line endX="-74.0" layoutX="824.0" layoutY="304.0" startX="-100.0" stroke="YELLOW" />
+								<Line endX="-74.0" layoutX="783.0" layoutY="304.0" startX="-100.0" stroke="YELLOW" />
+								<Line endX="-28.0" layoutX="404.0" layoutY="556.0" startX="-28.0" startY="33.0" stroke="YELLOW" />
+								<Line endX="-29.0" layoutX="663.0" layoutY="20.0" startX="-29.0" startY="33.0" stroke="YELLOW" />
+								<Line endX="-28.0" layoutX="657.0" layoutY="412.0" startX="-28.0" startY="33.0" stroke="YELLOW" />
+								<Line endX="-29.0" layoutX="658.0" layoutY="346.0" startX="-29.0" startY="33.0" stroke="YELLOW" />
+								<Line endX="-28.0" layoutX="658.0" layoutY="556.0" startX="-28.0" startY="33.0" stroke="YELLOW" />
+								<ImageView fx:id="deleteHori1" fitHeight="25.0" fitWidth="27.0" layoutX="26.0" layoutY="89.0" onMouseClicked="#removeFirstHorizontalRoad" pickOnBounds="true" preserveRatio="true">
+									<image>
+										<Image url="@../images/deleteIcon.png" />
+									</image>
+								</ImageView>
+								<ImageView fx:id="deleteHori2" fitHeight="25.0" fitWidth="27.0" layoutX="24.0" layoutY="288.0" onMouseClicked="#removeSecondHorizontalRoad" pickOnBounds="true" preserveRatio="true">
+									<image>
+										<Image url="@../images/deleteIcon.png" />
+									</image>
+								</ImageView>
+								<ImageView fx:id="deleteHori3" fitHeight="25.0" fitWidth="27.0" layoutX="22.0" layoutY="485.0" onMouseClicked="#removeThirdHorizontalRoad" pickOnBounds="true" preserveRatio="true">
+									<image>
+										<Image url="@../images/deleteIcon.png" />
+									</image>
+								</ImageView>
+								<ImageView fx:id="deleteVeri1" fitHeight="25.0" fitWidth="27.0" layoutX="116.0" layoutY="20.0" onMouseClicked="#removeFirstVerticalRoad" pickOnBounds="true" preserveRatio="true">
+									<image>
+										<Image url="@../images/deleteIcon.png" />
+									</image>
+								</ImageView>
+								<ImageView fx:id="deleteVeri2" fitHeight="25.0" fitWidth="27.0" layoutX="365.0" layoutY="24.0" onMouseClicked="#removeSecondVerticalRoad" pickOnBounds="true" preserveRatio="true">
+									<image>
+										<Image url="@../images/deleteIcon.png" />
+									</image>
+								</ImageView>
+								<ImageView fx:id="deleteVeri3" fitHeight="25.0" fitWidth="27.0" layoutX="621.0" layoutY="30.0" onMouseClicked="#removeThirdVerticalRoad" pickOnBounds="true" preserveRatio="true">
+									<image>
+										<Image url="@../images/deleteIcon.png" />
+									</image>
+								</ImageView>
+								<ImageView fx:id="addHori1" fitHeight="25.0" fitWidth="27.0" layoutX="26.0" layoutY="88.0" onMouseClicked="#addFirstHorizontalRoad" pickOnBounds="true" preserveRatio="true">
+									<image>
+										<Image url="@../images/tickIcon.png" />
+									</image>
+								</ImageView>
+								<ImageView fx:id="addHori2" fitHeight="25.0" fitWidth="27.0" layoutX="25.0" layoutY="288.0" onMouseClicked="#addSecondHorizontalRoad" pickOnBounds="true" preserveRatio="true">
+									<image>
+										<Image url="@../images/tickIcon.png" />
+									</image>
+								</ImageView>
+								<ImageView fx:id="addHori3" fitHeight="25.0" fitWidth="27.0" layoutX="23.0" layoutY="486.0" onMouseClicked="#addThirdHorizontalRoad" pickOnBounds="true" preserveRatio="true">
+									<image>
+										<Image url="@../images/tickIcon.png" />
+									</image>
+								</ImageView>
+								<ImageView fx:id="addVeri1" fitHeight="25.0" fitWidth="27.0" layoutX="116.0" layoutY="21.0" onMouseClicked="#addFirstVerticalRoad" pickOnBounds="true" preserveRatio="true">
+									<image>
+										<Image url="@../images/tickIcon.png" />
+									</image>
+								</ImageView>
+								<ImageView fx:id="addVeri2" fitHeight="25.0" fitWidth="27.0" layoutX="365.0" layoutY="24.0" onMouseClicked="#addSecondVerticalRoad" pickOnBounds="true" preserveRatio="true">
+									<image>
+										<Image url="@../images/tickIcon.png" />
+									</image>
+								</ImageView>
+								<ImageView fx:id="addVeri3" fitHeight="25.0" fitWidth="27.0" layoutX="621.0" layoutY="32.0" onMouseClicked="#addThirdVerticalRoad" pickOnBounds="true" preserveRatio="true">
+									<image>
+										<Image url="@../images/tickIcon.png" />
+									</image>
+								</ImageView>
+								<ImageView disable="true" fitHeight="25.0" fitWidth="22.0" layoutX="368.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
+									<image>
+										<Image url="@../images/light.png" />
+									</image>
+								</ImageView>
+								<ImageView disable="true" fitHeight="25.0" fitWidth="22.0" layoutX="623.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
+									<image>
+										<Image url="@../images/light.png" />
+									</image>
+								</ImageView>
+								<ImageView disable="true" fitHeight="25.0" fitWidth="22.0" layoutX="621.0" layoutY="292.0" pickOnBounds="true" preserveRatio="true">
+									<image>
+										<Image url="@../images/light.png" />
+									</image>
+								</ImageView>
+								<ImageView disable="true" fitHeight="25.0" fitWidth="22.0" layoutX="618.0" layoutY="491.0" pickOnBounds="true" preserveRatio="true">
+									<image>
+										<Image url="@../images/light.png" />
+									</image>
+								</ImageView>
+								<ImageView disable="true" fitHeight="25.0" fitWidth="22.0" layoutX="364.0" layoutY="487.0" pickOnBounds="true" preserveRatio="true">
+									<image>
+										<Image url="@../images/light.png" />
+									</image>
+								</ImageView>
+								<ImageView disable="true" fitHeight="25.0" fitWidth="22.0" layoutX="365.0" layoutY="292.0" pickOnBounds="true" preserveRatio="true">
+									<image>
+										<Image url="@../images/light.png" />
+									</image>
+								</ImageView>
+								<ImageView disable="true" fitHeight="25.0" fitWidth="22.0" layoutX="118.0" layoutY="289.0" pickOnBounds="true" preserveRatio="true">
+									<image>
+										<Image url="@../images/light.png" />
+									</image>
+								</ImageView>
+								<ImageView disable="true" fitHeight="25.0" fitWidth="22.0" layoutX="113.0" layoutY="493.0" pickOnBounds="true" preserveRatio="true">
+									<image>
+										<Image url="@../images/light.png" />
+									</image>
+								</ImageView>
+								<Label layoutX="278.0" layoutY="75.0" prefHeight="21.0" prefWidth="194.0" text="    Horizontal Road 1" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+									<font>
+										<Font name="DejaVu Sans Bold" size="16.0" />
+									</font>
+								</Label>
+								<Label layoutX="276.0" layoutY="270.0" prefHeight="21.0" prefWidth="194.0" text="    Horizontal Road 2" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+									<font>
+										<Font name="DejaVu Sans Bold" size="16.0" />
+									</font>
+								</Label>
+								<Label layoutX="277.0" layoutY="507.0" prefHeight="21.0" prefWidth="194.0" text="    Horizontal Road 3" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+									<font>
+										<Font name="DejaVu Sans Bold" size="16.0" />
+									</font>
+								</Label>
+								<Label layoutX="11.0" layoutY="292.0" prefHeight="21.0" prefWidth="194.0" rotate="-90.0" text="    Vertical Road 1" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+									<font>
+										<Font name="DejaVu Sans Bold" size="16.0" />
+									</font>
+								</Label>
+								<Label layoutX="266.0" layoutY="386.0" prefHeight="21.0" prefWidth="194.0" rotate="-90.0" text="    Vertical Road 2" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+									<font>
+										<Font name="DejaVu Sans Bold" size="16.0" />
+									</font>
+								</Label>
+								<Label layoutX="514.0" layoutY="288.0" prefHeight="21.0" prefWidth="194.0" rotate="-90.0" text="    Vertical Road 3" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS">
+									<font>
+										<Font name="DejaVu Sans Bold" size="16.0" />
+									</font>
+								</Label>
+							</children>
+						</AnchorPane>
+						<Pane layoutX="3.0" layoutY="598.0" prefHeight="212.0" prefWidth="759.0" style="-fx-background-color: #87CEFA;">
+							<children>
+								<TextField fx:id="inpVert1Side1" layoutX="229.0" layoutY="8.0" prefHeight="1.0" prefWidth="34.0" />
+								<TextField fx:id="inpVerti1Side2" layoutX="229.0" layoutY="42.0" prefHeight="1.0" prefWidth="34.0" />
+								<TextField fx:id="inpVeri2Side1" layoutX="229.0" layoutY="77.0" prefHeight="1.0" prefWidth="34.0" />
+								<TextField fx:id="inpVeri2Side2" layoutX="229.0" layoutY="111.0" prefHeight="1.0" prefWidth="34.0" />
+								<TextField fx:id="inpVeri3Side1" layoutX="228.0" layoutY="146.0" prefHeight="1.0" prefWidth="34.0" />
+								<TextField fx:id="inpVeri3Side2" layoutX="228.0" layoutY="179.0" prefHeight="1.0" prefWidth="34.0" />
+								<TextField fx:id="inpHorz1Side1" layoutX="515.0" layoutY="9.0" prefHeight="1.0" prefWidth="34.0" />
+								<TextField fx:id="inpHorz1Side2" layoutX="515.0" layoutY="43.0" prefHeight="1.0" prefWidth="34.0" />
+								<TextField fx:id="inpHorzi2Side1" layoutX="515.0" layoutY="78.0" prefHeight="1.0" prefWidth="34.0" />
+								<TextField fx:id="inpHorzi2Side2" layoutX="515.0" layoutY="112.0" prefHeight="1.0" prefWidth="34.0" />
+								<TextField fx:id="inpHorzi3Side1" layoutX="515.0" layoutY="144.0" prefHeight="1.0" prefWidth="34.0" />
+								<TextField fx:id="inpHorzi3Side2" layoutX="515.0" layoutY="178.0" prefHeight="1.0" prefWidth="34.0" />
+								<JFXTextField fx:id="inpSimulationTime" focusColor="#1b298f" labelFloat="true" layoutX="566.0" layoutY="20.0" maxWidth="154.0" minWidth="154.0" prefHeight="31.0" prefWidth="154.0" promptText="Simulation TIme (Mins)" unFocusColor="BLACK" />
+								<JFXTextField fx:id="inpGridName" focusColor="#1b298f" labelFloat="true" layoutX="566.0" layoutY="64.0" maxWidth="155.0" minWidth="155.0" prefHeight="31.0" prefWidth="155.0" promptText="Grid Name" unFocusColor="BLACK" />
+								<JFXButton fx:id="buttonReset" layoutX="623.0" layoutY="178.0" onAction="#resetGridState" prefHeight="25.0" prefWidth="60.0" style="-fx-background-color: #20B2AA;" text="Reset" />
+								<JFXButton fx:id="buttonSave" layoutX="687.0" layoutY="177.0" onAction="#saveGridState" prefHeight="27.0" prefWidth="64.0" style="-fx-background-color: #20B2AA;" text="Save" />
+								<JFXButton fx:id="cancelButton" layoutX="555.0" layoutY="177.0" onAction="#redirectToDashBoard" prefHeight="27.0" prefWidth="64.0" style="-fx-background-color: #20B2AA;" text="Cancel" />
+								<Label layoutX="14.0" layoutY="13.0" text="Cars on Vertical Road 1 - Side 1" />
+								<Label layoutX="14.0" layoutY="47.0" text="Cars on Vertical Road 1 - Side 2" />
+								<Label layoutX="12.0" layoutY="116.0" text="Cars on Vertical Road 2 - Side 2" />
+								<Label layoutX="12.0" layoutY="82.0" text="Cars on Vertical Road 2 - Side 1" />
+								<Label layoutX="281.0" layoutY="84.0" text="Cars on Horizontal Road 2 - Side 1" />
+								<Label layoutX="281.0" layoutY="118.0" text="Cars on Horizontal Road 2 - Side 2" />
+								<Label layoutX="283.0" layoutY="49.0" text="Cars on Horizontal Road 1 - Side 2" />
+								<Label layoutX="283.0" layoutY="15.0" text="Cars on Horizontal Road 1 - Side 1" />
+								<Label layoutX="11.0" layoutY="152.0" text="Cars on Vertical Road 3 - Side 1" />
+								<Label layoutX="11.0" layoutY="186.0" text="Cars on Vertical Road 3 - Side 2" />
+								<Label layoutX="281.0" layoutY="184.0" text="Cars on Horizontal Road 3 - Side 2" />
+								<Label layoutX="281.0" layoutY="150.0" text="Cars on Horizontal Road 3 - Side 1" />
+								<Label fx:id="lblStatus" layoutX="554.0" layoutY="143.0" prefHeight="27.0" prefWidth="195.0" textFill="#cd1b1b" wrapText="true" />
+                        		<ChoiceBox fx:id="inpGridStatus" layoutX="640.0" layoutY="116.0" prefHeight="25.0" prefWidth="73.0" style="-fx-background-color: white;" />
+                        <Label layoutX="573.0" layoutY="115.0" prefHeight="26.0" prefWidth="60.0" text="Grid Status" />
+							</children>
+						</Pane>
+					</children>
+				</Pane>
+			</content>
+		</ScrollPane>
+	</children>
+</Pane>
